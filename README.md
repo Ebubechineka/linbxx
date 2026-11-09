@@ -1,35 +1,43 @@
 # Linbxx — Home Goods Storefront
 
-A warm, editorial home-goods storefront for kitchen organisation — glass jars, spice racks and wooden tools — with a full product grid, collection pages and a checkout flow built for browsing on a phone.
+A warm, editorial storefront for kitchen organisation — glass jars, spice racks and wooden tools — built to be browsed on a phone.
 
-**Live site:** [linbxx.vercel.app](https://linbxx.vercel.app/)
+**[→ View the live site](https://linbxx.vercel.app/)**
+
+<img src="screenshot.png" alt="Linbxx — Home Goods Storefront screenshot" width="100%">
+
+## What this is
+
+A home-goods shop where the product photography does the selling. The layout is deliberately quiet: warm neutrals, generous whitespace and a product grid that stays readable on a small screen.
+
+The brief was simple — sell home goods to people browsing on a phone. So the whole build is mobile-first, with collection pages that load fast and a checkout path that doesn't lose people between "add to cart" and "pay".
 
 ## What's inside
 
-- Product grid with category browsing
+- Full product grid with category browsing
 - Collection pages
 - Mobile-first checkout flow
-- Fully self-contained static site (works from GitHub Pages too)
+- Self-contained static build — no external dependencies
 
 ## Technology
 
-- HTML, CSS, JavaScript
+- HTML, CSS and JavaScript
 - Static site — no build step required
 - Deployed on Vercel and GitHub Pages
 
-## How to run locally
+## Run it locally
+
+No build step, no dependencies — it's plain HTML, CSS and JavaScript.
 
 ```bash
-# serve the folder on http://localhost:8000
+# from the repository root
 python3 -m http.server 8000
-# or with npx
-npx serve .
+# then open http://localhost:8000
 ```
 
-## How it was built
+Or just open `index.html` directly in a browser.
 
-Built for a client selling home goods to people browsing on a phone — warm product photography, honest editorial layout, and a checkout flow that doesn't lose people between "add to cart" and "pay".
 
 ---
 
-*Built by [Benito K Chukwuemeka](https://github.com/Ebubechineka) · [Golden Vista Global](https://ebubechineka.github.io/golden-vista-global/)*
+<sub>Built by **[Benito K Chukwuemeka](https://github.com/Ebubechineka)** · [Golden Vista Global](https://ebubechineka.github.io/golden-vista-global/) — business websites, landing pages and web apps for clients in Nigeria and worldwide.</sub>
